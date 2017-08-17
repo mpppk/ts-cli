@@ -2,7 +2,9 @@
   "name": "ts-cli",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "bin" : {
+    "ts-cli" : "./dist/src/cli.js"
+  },
   "scripts": {
     "test": "nyc mocha",
     "doc": "typedoc --out ./docs -m \"amd\"",
