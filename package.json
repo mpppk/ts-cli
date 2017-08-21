@@ -27,7 +27,7 @@
   "author": "mpppk",
   "license": "MIT",
   "devDependencies": {
-    "@types/mocha": "^2.2.41",
+    "@types/mocha": "^2.2.42",
     "@types/power-assert": "^1.4.29",
     "chai": "^4.1.0",
     "espower-typescript": "^8.0.2",
