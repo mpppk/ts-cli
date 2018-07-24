@@ -8,7 +8,7 @@
   "scripts": {
     "test": "nyc mocha",
     "doc": "typedoc --out ./docs -m \"amd\"",
-    "lint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
+    "lint": "pretty-quick && tslint -c tslint.json 'src/**/*.ts' 'src/**/*.tsx' 'test/**/*.ts' --fix",
     "pretty-quick": "pretty-quick",
     "precommit": "pretty-quick --staged"
   },
@@ -42,6 +42,7 @@
     "pretty-quick": "^1.6.0",
     "ts-node": "^3.2.0",
     "tslint": "^5.5.0",
+    "tslint-config-prettier": "^1.14.0",
     "typedoc": "^0.10.0",
     "typescript": "^2.4.2"
   },
