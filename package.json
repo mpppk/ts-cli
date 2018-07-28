@@ -9,6 +9,8 @@
     "test": "nyc mocha",
     "doc": "typedoc --out ./docs -m \"amd\"",
     "lint": "pretty-quick && tslint -c tslint.json 'src/**/*.ts' 'src/**/*.tsx' 'test/**/*.ts' --fix",
+    "build": "tsc",
+    "watch": "tsc -w",
     "pretty-quick": "pretty-quick",
     "precommit": "pretty-quick --staged"
   },
