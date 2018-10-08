@@ -50,7 +50,7 @@
     "typescript": "^2.4.2"
   },
   "dependencies": {
-    "commander": "^2.11.0",
+    "commander": "^2.19.0",
     "puppeteer": "^1.6.1"
   }
 }
