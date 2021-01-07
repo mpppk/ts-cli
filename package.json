@@ -52,7 +52,7 @@
     "typescript": "2.9.2"
   },
   "dependencies": {
-    "commander": "2.16.0",
+    "commander": "6.2.1",
     "puppeteer": "1.11.0"
   }
 }
